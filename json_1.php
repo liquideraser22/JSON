@@ -1,6 +1,6 @@
 <?php 
 include 'config.php';
-include 'class.movies.php';
+include 'class.movie.php';
 header('Content-Type: application/json');
 $movies = new movies();
 $list=$movie->get_movie();
