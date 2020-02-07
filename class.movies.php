@@ -1,5 +1,5 @@
 <?php
-class movies{
+class Movies{
 	public $db;
 	
 	public function __construct(){
