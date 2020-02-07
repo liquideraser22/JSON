@@ -48,13 +48,13 @@ foreach($list as $value){
 		border: 1px solid black;
 		width: 90%;
 		text-align: center;
-		border-radius: 3%;
+		
 		
 	}
 	th, td{
 		border: 1px solid #ddd;
 		padding: 10px;
-		border-radius: 3%;
+		
 
 	}
     tr:nth-child(even) {background-color: white;}
@@ -64,7 +64,7 @@ foreach($list as $value){
     .head{
 		background-color: grey;
 		color: orange;
-		font-weight: bold;
+		font-weight: italic;
 	}
 </style>
 </div>
