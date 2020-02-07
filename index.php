@@ -45,7 +45,7 @@ foreach($list as $value){
     }
 	table{
 		border: 1px solid black;
-		width: 100%;
+		width: 90%;
 		text-align: center;
 		border-color: dotted dashed;
 		
@@ -60,8 +60,8 @@ foreach($list as $value){
 		color: #66fcf1;
 	}
     .head{
-		background-color: #45a29e;
-		color: #1f2833;
+		background-color: grey;
+		color: orange;
 		font-weight: bold;
 	}
 </style>
