@@ -48,7 +48,7 @@ foreach($list as $value){
 		border: 1px solid black;
 		width: 90%;
 		text-align: center;
-		border-radius: 3px;
+		border-radius: 3%;
 		
 	}
 	th, td{
