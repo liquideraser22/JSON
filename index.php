@@ -2,7 +2,7 @@
 $json = file_get_contents('https://new-app-json.herokuapp.com/json_1.php');
 
 $data = json_decode($json,true);
-$list = $data['movie'];
+$list = $data['movies'];
 
 
 
@@ -17,7 +17,6 @@ $list = $data['movie'];
 <div class="content">
 <table border="1px">
     <tr class="head">
-        <td>ID</td>
         <td>Title</td>
         <td>Actor</td>
         <td>Genre</td>
@@ -27,7 +26,6 @@ $list = $data['movie'];
 foreach($list as $value){
     ?>
     <tr>
-        <td><?php echo $value['mov_id'];?></td>
         <td><?php echo $value['mov_title'];?></td>
         <td><?php echo $value['mov_actor'];?></td>
         <td><?php echo $value['mov_genre'];?></td>
