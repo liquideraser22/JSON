@@ -4,9 +4,9 @@ USE db_1820359;
 
 CREATE TABLE `tbl_movies` (
 	`mov_id` INT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
-	`mov_title` VARCHAR(180) NOT NULL DEFAULT '',
-   `mov_actor` VARCHAR(180) NOT NULL DEFAULT '',
-	`mov_genre` VARCHAR(180) NOT NULL DEFAULT '',
+	`mov_title` VARCHAR(100) NOT NULL DEFAULT '',
+   	`mov_actor` VARCHAR(180) NOT NULL DEFAULT '',
+	`mov_genre` VARCHAR(200) NOT NULL DEFAULT '',
 	`mov_director` VARCHAR(180) NOT NULL DEFAULT '',
 	PRIMARY KEY (`mov_id`)
 )
