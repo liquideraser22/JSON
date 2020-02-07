@@ -64,7 +64,7 @@ foreach($list as $value){
     .head{
 		background-color: grey;
 		color: orange;
-		font-weight: italic;
+		font-weight: bold;
 	}
 </style>
 </div>
