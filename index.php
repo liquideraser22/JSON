@@ -10,9 +10,9 @@ foreach($list as $value){
     ?>
     <ul>
         <h2><?php echo $value['mov_title'];?></h2>
-        <li><?php echo $value['mov_actor'];?></li>
-        <li><?php echo $value['mov_genre'];?></li>
-        <li><?php echo $value['mov_director'];?></li>
+        <li>Actor: <?php echo $value['mov_actor'];?></li>
+        <li>Genre: <?php echo $value['mov_genre'];?></li>
+        <li>Director: <?php echo $value['mov_director'];?></li>
     </ul>
 <?php
 }
