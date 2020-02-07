@@ -54,6 +54,7 @@ foreach($list as $value){
 	th, td{
 		border: 1px solid #ddd;
 		padding: 10px;
+		border-radius: 3%;
 
 	}
     tr:nth-child(even) {background-color: white;}
