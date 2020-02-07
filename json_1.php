@@ -2,8 +2,8 @@
 include 'config.php';
 include 'class.movies.php';
 header('Content-Type: application/json');
-$moviess = new movies();
-$list=$moviess->get_moviess();
+$movies = new movies();
+$list=$movies->get_movies();
 echo "{\"movies\":";
 echo json_encode($list);
 echo "}";
