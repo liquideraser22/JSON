@@ -9,10 +9,10 @@ $list = $data['movies'];
 foreach($list as $value){
     ?>
     <ul>
-        <td><?php echo $value['mov_title'];?></td>
-        <td><?php echo $value['mov_actor'];?></td>
-        <td><?php echo $value['mov_genre'];?></td>
-        <td><?php echo $value['mov_director'];?></td>
+        <h2><?php echo $value['mov_title'];?></h2>
+        <li><?php echo $value['mov_actor'];?></li>
+        <li><?php echo $value['mov_genre'];?></li>
+        <li><?php echo $value['mov_director'];?></li>
     </ul>
 <?php
 }
