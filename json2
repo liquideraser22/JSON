@@ -1,9 +1,37 @@
+<style>
+
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+	table{
+		border: 1px solid black;
+		width: 100%;
+		text-align: center;
+		
+	}
+	th, td{
+		border: 1px solid #ddd;
+		padding: 10px;
+
+	}
+    tr:nth-child(even) {background-color: pink;}
+	a {
+		color: #66fcf1;
+	}
+    .head{
+		background-color: #45a29e;
+		color: #1f2833;
+		font-weight: bold;
+	}
+</style>
+
 <?php
 $json = file_get_contents('https://new-app-json.herokuapp.com/json_1.php');
 
 $data = json_decode($json,true);
-$list = $data['movies'];
-//$list = $data['movies'][1];
+$list = $data['movie'];
+//$list = $data['movie'][1];
 
 
 //var_dump($data);
@@ -40,30 +68,4 @@ foreach($list as $value){
 </table>
 </div>
 
-<style>
 
-    .content{
-        display: flex;
-        justify-content: center;
-    }
-	table{
-		border: 1px solid black;
-		width: 100%;
-		text-align: center;
-		
-	}
-	th, td{
-		border: 1px solid #ddd;
-		padding: 10px;
-
-	}
-    tr:nth-child(even) {background-color: pink;}
-	a {
-		color: #66fcf1;
-	}
-    .head{
-		background-color: #45a29e;
-		color: #1f2833;
-		font-weight: bold;
-	}
-</style>
