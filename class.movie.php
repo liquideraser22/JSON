@@ -1,5 +1,5 @@
 <?php
-class Movies{
+class Movie{
 	public $db;
 	
 	public function __construct(){
@@ -10,7 +10,7 @@ class Movies{
 		}
 	}
 	
-	public function get_movies(){
+	public function get_movie(){
 		$sql = "SELECT * FROM tbl_movies";
 		$result = mysqli_query($this->db,$sql);
 		while($row = mysqli_fetch_assoc($result)){
