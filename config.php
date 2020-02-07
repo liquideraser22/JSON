@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 define('DB_SERVER','dbrojasdev.cjw42bnplsor.us-east-1.rds.amazonaws.com');
