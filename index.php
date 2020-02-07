@@ -39,10 +39,7 @@ foreach($list as $value){
 
 <style>
 
-    .content{
-        display: flex;
-        justify-content: center;
-	font-family: Papyrus;
+    
     }
 	table{
 		border: 1px solid black;
