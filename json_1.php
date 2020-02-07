@@ -3,8 +3,8 @@ include 'config.php';
 include 'class.movies.php';
 header('Content-Type: application/json');
 $movies = new movies();
-$list=$movies->get_movies();
-echo "{\"movies\":";
+$list=$movie->get_movie();
+echo "{\"movie\":";
 echo json_encode($list);
 echo "}";
 ?>
